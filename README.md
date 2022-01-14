@@ -28,6 +28,8 @@ library (any other table can be downloaded using a TaxID):
 - M. musculus domesticus
 - S. cerevisiae
 
+PyPI: [https://pypi.org/project/python-codon-tables/](https://pypi.org/project/python-codon-tables/)
+
 
 Current build status
 ====================

@@ -11,7 +11,7 @@ source:
   sha256: ba590fcfb1988f9674c8627464caeb3ea0797d970872a2c27ea09906acd24110
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -51,6 +51,8 @@ about:
     - M. musculus domesticus
     - S. cerevisiae
 
+    PyPI: [https://pypi.org/project/python-codon-tables/](https://pypi.org/project/python-codon-tables/)
+
   doc_url: https://github.com/Edinburgh-Genome-Foundry/codon-usage-tables
   dev_url: https://github.com/Edinburgh-Genome-Foundry/codon-usage-tables
 
@@ -59,3 +61,32 @@ extra:
     - sugatoray
     ## Maintainers from bioconda
     # - tjacobs2
+
+## RECIPE END
+#
+## NOTE: >> DO NOT REMOVE THIS NOTE TO AVOIDE PLAUSIBLE CONFUSION IN FUTURE
+#
+#  SUMMARY: The three recipes (seqlike, weblogo, python-codon-tables) 
+#           were managed by bioconda channel. Since the creators of 
+#           seqlike wanted it on conda-forge, we ported all three 
+#           libraries from bioconda channel to conda-forge channel, 
+#           with permission from bioconda-core-team. The other two 
+#           libraries (weblogo, python-codon-tables) are dependencies 
+#           of `seqlike`.
+#
+#  TODO: 
+#         1. Remind bioconda team to remove "seqlike" from 
+#            bioconda channel, to complete the transfer of 
+#            "seqlike" from bioconda to conda-forge.
+#
+#         2. Ask the maintainers of bioconda:seqlike whether 
+#            to add them to the maintainers' list here.
+#
+#  See: 
+#    - Comment: 
+#      https://github.com/conda-forge/staged-recipes/pull/17283#issuecomment-1001016875
+#      By: dpryan79 (from bioconda team)
+#    - For more information see this:
+#      https://github.com/conda-forge/staged-recipes/pull/17283#issuecomment-1000523651
+#      
+##-------------------------------------------------------------------------
